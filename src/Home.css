@@ -1,0 +1,51 @@
+*::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing : border-box;
+}
+
+.MainPage {
+  background-color: rgb(246, 255, 199);
+  width: 96rem;
+  height: 41.6rem ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MainText{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.BoxDiv {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Box{
+  height: 5rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 5rem;
+  margin: 3rem;
+  overflow: hidden;
+  text-align: center;
+  border: solid 0.2rem;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linkstyle{
+  text-decoration: none;
+  color: black;
+}

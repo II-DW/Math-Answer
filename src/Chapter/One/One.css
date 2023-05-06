@@ -1,0 +1,57 @@
+
+.MainPage2 {
+    background-color: rgb(246, 255, 199);
+    width: 96rem;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: baseline;
+
+}
+
+.BigSize {
+    display: inline-block;
+    vertical-align: top;
+    flex-flow: column;
+    padding-left: 1rem;
+}
+
+
+.Box{
+    height: 5rem;
+    width: 16rem;
+    background-color: white;
+    border-radius: 5rem;
+    margin: 1rem;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkstyle{
+    text-decoration: none;
+    color: black;
+}
+
+.Box2{
+    height: 5rem;
+    width: 16rem;
+    background-color: white;
+    border-radius: 5rem;
+    margin: 1rem;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40rem;
+}
