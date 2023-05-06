@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Math-Answer%20/static/css/main.b693a747.css",
+    "main.js": "/Math-Answer%20/static/js/main.29228056.js",
+    "static/media/daegun.png": "/Math-Answer%20/static/media/daegun.c100986f6c2c4bcf71cf.png",
+    "index.html": "/Math-Answer%20/index.html",
+    "main.b693a747.css.map": "/Math-Answer%20/static/css/main.b693a747.css.map",
+    "main.29228056.js.map": "/Math-Answer%20/static/js/main.29228056.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b693a747.css",
+    "static/js/main.29228056.js"
+  ]
+}
