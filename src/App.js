@@ -12,7 +12,7 @@ import Nav from './components/nav.js'
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/Math-Answer">
       <Nav />
       <hr />
       <Routes>
