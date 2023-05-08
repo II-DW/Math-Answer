@@ -8,7 +8,7 @@ import './App.css';
 
 import Nav from './components/nav.js'
 
-
+import Q1_1 from './Chapter/One/code/q/Q1_1.js'
 
 function App() {
   return (
@@ -18,12 +18,13 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} component={() => <redirect to='/home' />}/>
-        <Route path="question" element={<One />}>
-          <Route path="1" element={<One />}> 
-            <Route path="1" element={<One />} />
-            <Route path="2" element={<One />} />
-            <Route path="3" element={<One />} />
-            <Route path="4" element={<One />} />
+        <Route path="question">
+          <Route path="1" > 
+            <Route path="h" element={<One />} />
+            <Route path="1" element={<Q1_1 />} />
+            <Route path="2" element={<Q1_1 />} />
+            <Route path="3" element={<Q1_1 />} />
+            <Route path="4" element={<Q1_1 />} />
             <Route path="5" element={<One />} />
             <Route path="6" element={<One />} />
             <Route path="7" element={<One />} />
@@ -52,6 +53,10 @@ function App() {
             <Route path="30" element={<One />} />
             <Route path="31" element={<One />} />
             <Route path="32" element={<One />} />
+          </Route>
+        </Route><Route path="question">
+          <Route path="1" > 
+            <Route path="h" element={<One />} />
           </Route>
         </Route>
       </Routes>
