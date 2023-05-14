@@ -10,8 +10,8 @@
 
 .MainPage {
   background-color: rgb(246, 255, 199);
-  width: 96rem;
-  height: 41.6rem ;
+  width: 100vw;
+  height: 100vh ;
   display: flex;
   align-items: center;
   flex-direction: column;
