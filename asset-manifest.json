@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/Math-Answer/static/css/main.83ef03ae.css",
-    "main.js": "/Math-Answer/static/js/main.c825c375.js",
-    "static/media/1.png": "/Math-Answer/static/media/1.c7844fb5bb8cc32c835d.png",
-    "static/media/01.01.png": "/Math-Answer/static/media/01.01.fb46542fcd9781650a70.png",
+    "main.css": "/Math-Answer/static/css/main.784a85d6.css",
+    "main.js": "/Math-Answer/static/js/main.3cbc34e6.js",
+    "static/media/9.png": "/Math-Answer/static/media/9.59d0f3788d0ddadad085.png",
+    "static/media/3.png": "/Math-Answer/static/media/3.9f1f36f8d6716091743c.png",
+    "static/media/8.png": "/Math-Answer/static/media/8.05a385deb69ede33b1f1.png",
+    "static/media/1.png": "/Math-Answer/static/media/1.d18f2b34994e991eb69e.png",
+    "static/media/12.png": "/Math-Answer/static/media/12.ee295da555d3812acfb3.png",
+    "static/media/11.png": "/Math-Answer/static/media/11.eef02e3126a13b4c3eda.png",
+    "static/media/4.png": "/Math-Answer/static/media/4.d986a5dce42153f5d228.png",
+    "static/media/10.png": "/Math-Answer/static/media/10.ccc16dbbc956612a4ba7.png",
+    "static/media/7.png": "/Math-Answer/static/media/7.2c242e992879300bf4e9.png",
+    "static/media/6.png": "/Math-Answer/static/media/6.bdf27606e2a8b784759f.png",
+    "static/media/5.png": "/Math-Answer/static/media/5.2ca1d29926312bcc47c8.png",
+    "static/media/2.png": "/Math-Answer/static/media/2.fb2e44909ec6ed7799f0.png",
+    "static/media/13.png": "/Math-Answer/static/media/13.9c0716cb6a3dd28ed7b2.png",
     "static/media/daegun.png": "/Math-Answer/static/media/daegun.c100986f6c2c4bcf71cf.png",
     "index.html": "/Math-Answer/index.html",
-    "main.83ef03ae.css.map": "/Math-Answer/static/css/main.83ef03ae.css.map",
-    "main.c825c375.js.map": "/Math-Answer/static/js/main.c825c375.js.map"
+    "main.784a85d6.css.map": "/Math-Answer/static/css/main.784a85d6.css.map",
+    "main.3cbc34e6.js.map": "/Math-Answer/static/js/main.3cbc34e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.83ef03ae.css",
-    "static/js/main.c825c375.js"
+    "static/css/main.784a85d6.css",
+    "static/js/main.3cbc34e6.js"
   ]
 }
