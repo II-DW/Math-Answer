@@ -60,12 +60,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 96rem;
-    height: 43rem;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
     background-color: rgb(246, 255, 199);
 }
 .img {
-    width: 85rem;
+    width: 45rem;
     height: auto;
 }
 

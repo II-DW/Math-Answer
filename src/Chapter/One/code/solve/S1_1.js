@@ -3,7 +3,7 @@ import '../../One.css';
 
 import { Link } from "react-router-dom";
 
-import Img from '../../Pircure/solve/01.01.png';
+import Img from '../../Pircure/solve/1.png';
 
 function Question() {
   return (

@@ -12,7 +12,22 @@ import './App.css';
 import Nav from './components/nav.js'
 
 import Q1q1 from './Chapter/One/code/q/Q1_1.js';
+
 import S1s1 from './Chapter/One/code/solve/S1_1.js';
+import S1s2 from './Chapter/One/code/solve/S1_2.js';
+import S1s3 from './Chapter/One/code/solve/S1_3.js';
+import S1s4 from './Chapter/One/code/solve/S1_4.js';
+import S1s5 from './Chapter/One/code/solve/S1_5.js';
+import S1s6 from './Chapter/One/code/solve/S1_6.js';
+import S1s7 from './Chapter/One/code/solve/S1_7.js';
+import S1s8 from './Chapter/One/code/solve/S1_8.js';
+import S1s9 from './Chapter/One/code/solve/S1_9.js';
+import S1s10 from './Chapter/One/code/solve/S1_10.js';
+import S1s11 from './Chapter/One/code/solve/S1_11.js';
+import S1s12 from './Chapter/One/code/solve/S1_12.js';
+import S1s13 from './Chapter/One/code/solve/S1_13.js';
+
+
 import A1a1 from './Chapter/One/code/a/A1_1.js';
 
 function App() {
@@ -64,18 +79,18 @@ function App() {
           <Route path="1" > 
             <Route path="h" element={<Ones />} />
             <Route path="1" element={<S1s1 />} />
-            <Route path="2" element={<S1s1 />} />
-            <Route path="3" element={<S1s1 />} />
-            <Route path="4" element={<Ones />} />
-            <Route path="5" element={<Ones />} />
-            <Route path="6" element={<Ones />} />
-            <Route path="7" element={<Ones />} />
-            <Route path="8" element={<Ones />} />
-            <Route path="9" element={<Ones />} />
-            <Route path="10" element={<Ones />} />
-            <Route path="11" element={<Ones />} />
-            <Route path="12" element={<Ones />} />
-            <Route path="13" element={<Ones />} />
+            <Route path="2" element={<S1s2 />} />
+            <Route path="3" element={<S1s3 />} />
+            <Route path="4" element={<S1s4 />} />
+            <Route path="5" element={<S1s5 />} />
+            <Route path="6" element={<S1s6 />} />
+            <Route path="7" element={<S1s7 />} />
+            <Route path="8" element={<S1s8 />} />
+            <Route path="9" element={<S1s9 />} />
+            <Route path="10" element={<S1s10 />} />
+            <Route path="11" element={<S1s11 />} />
+            <Route path="12" element={<S1s12 />} />
+            <Route path="13" element={<S1s13 />} />
             <Route path="14" element={<Ones />} />
             <Route path="15" element={<Ones />} />
             <Route path="16" element={<Ones />} />

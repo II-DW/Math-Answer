@@ -1,6 +1,7 @@
 .NavDiv{
     width: 96rem;
     height: 5rem;
+    
     background-color: white;
     display: flex;
     align-items: center;
