@@ -7,7 +7,7 @@ import './One.css';
 function Home() {
   return (
     <div className="MainPage2">
-      <Link to="/1/1" className='linkstyle'><div className='Box2'>1.1 함수의 극한 <br /> 문제 전체 다운로드하기  </div></Link>
+      <div className='Box2'>2.2 도홤수의 활용 <br/> 문제</div>
       <div className="BigSize">
             <Link to="/question/1/1" className='linkstyle'><div className='Box'>1번</div></Link>
             <Link to="/question/1/6" className='linkstyle'><div className='Box'>6번</div></Link>

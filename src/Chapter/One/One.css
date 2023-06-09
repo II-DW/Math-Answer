@@ -2,13 +2,13 @@
 .MainPage2 {
     background-color: rgb(246, 255, 199);
     width: 100vw;
-    height: 100vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     display: inline-block;
     vertical-align: baseline;
-
-}
+    min-height: 100vh;
+}   
 
 .BigSize {
     display: inline-block;
@@ -42,7 +42,7 @@
 .Box2{
     height: 5rem;
     width: 16rem;
-    background-color: white;
+    background-color: aqua;
     border-radius: 5rem;
     margin: 1rem;
     overflow: hidden;
@@ -78,6 +78,11 @@
 .Next2{
     text-decoration: none;
     color: blue;
+}
+
+.Next3{
+    text-decoration: none;
+    color: red;
 }
 
 .Answer {

@@ -10,6 +10,8 @@ import Onea from './Chapter/One/One_a.js';
 import './App.css';
 
 import Nav from './components/nav.js'
+import NotFound from './components/404.js';
+import From from './components/from.js'
 
 import Q1q1 from './Chapter/One/code/q/Q1_1.js';
 
@@ -26,18 +28,52 @@ import S1s10 from './Chapter/One/code/solve/S1_10.js';
 import S1s11 from './Chapter/One/code/solve/S1_11.js';
 import S1s12 from './Chapter/One/code/solve/S1_12.js';
 import S1s13 from './Chapter/One/code/solve/S1_13.js';
-
+import S1s14 from './Chapter/One/code/solve/S1_14.js';
+import S1s15 from './Chapter/One/code/solve/S1_15.js';
+import S1s16 from './Chapter/One/code/solve/S1_16.js';
+import S1s17 from './Chapter/One/code/solve/S1_17.js';
+import S1s18 from './Chapter/One/code/solve/S1_18.js';
+import S1s19 from './Chapter/One/code/solve/S1_19.js';
+import S1s20 from './Chapter/One/code/solve/S1_20.js';
+import S1s21 from './Chapter/One/code/solve/S1_21.js';
+import S1s22 from './Chapter/One/code/solve/S1_22.js';
+import S1s23 from './Chapter/One/code/solve/S1_23.js';
+import S1s24 from './Chapter/One/code/solve/S1_24.js';
+import S1s25 from './Chapter/One/code/solve/S1_25.js';
+import S1s26 from './Chapter/One/code/solve/S1_26.js';
+import S1s27 from './Chapter/One/code/solve/S1_27.js';
+import S1s28 from './Chapter/One/code/solve/S1_28.js';
+import S1s29 from './Chapter/One/code/solve/S1_29.js';
+import S1s30 from './Chapter/One/code/solve/S1_30.js';
+import S1s31 from './Chapter/One/code/solve/S1_31.js';
+import S1s32 from './Chapter/One/code/solve/S1_32.js';
+import S1s33 from './Chapter/One/code/solve/S1_33.js';
+import S1s34 from './Chapter/One/code/solve/S1_34.js';
+import S1s35 from './Chapter/One/code/solve/S1_35.js';
+import S1s36 from './Chapter/One/code/solve/S1_36.js';
+import S1s37 from './Chapter/One/code/solve/S1_37.js';
+import S1s38 from './Chapter/One/code/solve/S1_38.js';
+import S1s39 from './Chapter/One/code/solve/S1_39.js';
+import S1s40 from './Chapter/One/code/solve/S1_40.js';
+import S1s41 from './Chapter/One/code/solve/S1_41.js';
+import S1s42 from './Chapter/One/code/solve/S1_42.js';
+import S1s43 from './Chapter/One/code/solve/S1_43.js';
+import S1s44 from './Chapter/One/code/solve/S1_44.js';
+import S1s45 from './Chapter/One/code/solve/S1_45.js';
+import S1s46 from './Chapter/One/code/solve/S1_46.js';
+import S1s47 from './Chapter/One/code/solve/S1_47.js';
 
 import A1a1 from './Chapter/One/code/a/A1_1.js';
 
 function App() {
   return (
     <BrowserRouter basename="/Math-Answer">
-      <Nav />
+      <Nav /> 
       <hr />
       <Routes>
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} component={() => <redirect to='/home' />}/>
+        <Route path="from" element={<From />}/>
         <Route path="question">
           <Route path="1" > 
             <Route path="h" element={<Oneq />} />
@@ -91,18 +127,40 @@ function App() {
             <Route path="11" element={<S1s11 />} />
             <Route path="12" element={<S1s12 />} />
             <Route path="13" element={<S1s13 />} />
-            <Route path="14" element={<Ones />} />
-            <Route path="15" element={<Ones />} />
-            <Route path="16" element={<Ones />} />
-            <Route path="17" element={<Ones />} />
-            <Route path="18" element={<Ones />} />
-            <Route path="19" element={<Ones />} />
-            <Route path="20" element={<Ones />} />
-            <Route path="21" element={<Ones />} />
-            <Route path="22" element={<Ones />} />
-            <Route path="23" element={<Ones />} />
-            <Route path="24" element={<Ones />} />
-            <Route path="25" element={<Ones />} />
+            <Route path="14" element={<S1s14 />} />
+            <Route path="15" element={<S1s15 />} />
+            <Route path="16" element={<S1s16 />} />
+            <Route path="17" element={<S1s17 />} />
+            <Route path="18" element={<S1s18 />} />
+            <Route path="19" element={<S1s19 />} />
+            <Route path="20" element={<S1s20 />} />
+            <Route path="21" element={<S1s21 />} />
+            <Route path="22" element={<S1s22 />} />
+            <Route path="23" element={<S1s23 />} />
+            <Route path="24" element={<S1s24 />} />
+            <Route path="25" element={<S1s25 />} />
+            <Route path="26" element={<S1s26 />} />
+            <Route path="27" element={<S1s27 />} />
+            <Route path="28" element={<S1s28 />} />
+            <Route path="29" element={<S1s29 />} />
+            <Route path="30" element={<S1s30 />} />
+            <Route path="31" element={<S1s31 />} />
+            <Route path="32" element={<S1s32 />} />
+            <Route path="33" element={<S1s33 />} />
+            <Route path="34" element={<S1s34 />} />
+            <Route path="35" element={<S1s35 />} />
+            <Route path="36" element={<S1s36 />} />
+            <Route path="37" element={<S1s37 />} />
+            <Route path="38" element={<S1s38 />} />
+            <Route path="39" element={<S1s39 />} />
+            <Route path="40" element={<S1s40 />} />
+            <Route path="41" element={<S1s41 />} />
+            <Route path="42" element={<S1s42 />} />
+            <Route path="43" element={<S1s43 />} />
+            <Route path="44" element={<S1s44 />} />
+            <Route path="45" element={<S1s45 />} />
+            <Route path="46" element={<S1s46 />} />
+            <Route path="47" element={<S1s47 />} />
           </Route>
         </Route>
         <Route path="answer">
@@ -135,6 +193,7 @@ function App() {
             <Route path="25" element={<Onea />} />
           </Route>
         </Route>
+        <Route path="/*" element={<NotFound />} /> 
       </Routes>
     </BrowserRouter>
     

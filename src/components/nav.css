@@ -41,7 +41,7 @@
     margin-top: 0.1rem;
     height: 0;
     position: absolute;
-    z-index: 5;
+    z-index: 5  ;
     overflow: hidden;
     transition: all 0.5s ease;
     display: flex;

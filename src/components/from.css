@@ -1,0 +1,35 @@
+.MainFrom {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 148);
+    z-index: 8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.GitHubContact{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,black, #b0b0b0);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  
+.GitHubContact:hover {
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.CharFrom{
+    color: blue;
+    text-decoration: none;
+}
