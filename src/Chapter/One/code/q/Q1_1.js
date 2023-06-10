@@ -8,8 +8,10 @@ import img from '../../Pircure/q/1.png';
 function Question() {
   return (
     <div className="Main">
+        
+        <span className="Next"><Link to="../../../solve/1/1" className="Next2">해설 보러가기</Link></span>
         <img src = {img} alt="face" className="img"/>
-        <span className="Next"><Link to="../../../solve/1/1" className="Next2">해설 보러가기</Link> &nbsp; <br /> <Link to ="../../../answer/1/1" className="Next2">답지 보러가기</Link></span>
+        <span className="Next"><Link to="../../../question/1/2"className="Next3">다음문제</Link></span>
     </div>
   );
 }

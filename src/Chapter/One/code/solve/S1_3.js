@@ -9,7 +9,7 @@ function Question() {
   return (
     <div className="Main">
 
-        <span className="Next"><Link to="../../../question/1/3"className="Next2">문제 보러가기</Link> &nbsp; <br /> <Link to ="../../../answer/1/3" className="Next2">답지 보러가기</Link></span>
+        <span className="Next"><Link to="../../../question/1/3"className="Next2">문제 보러가기</Link>  </span>
         <img src = {Img} alt="face" className="img"/>
         <span className="Next"><Link to="../../../solve/1/4"className="Next3">다음문제</Link></span>
     </div>
