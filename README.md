@@ -6,4 +6,4 @@
 </div>
 
 # 
-https://ii-dw.github.io/Math-Answer/question/1/h
+https://ii-dw.github.io/Math-Answer/
