@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Math-Answer/static/css/main.286a63c5.css",
-    "main.js": "/Math-Answer/static/js/main.37295d01.js",
+    "main.js": "/Math-Answer/static/js/main.4880b7d9.js",
     "static/media/47.png": "/Math-Answer/static/media/47.a5ee177edf17061f59ab.png",
     "static/media/37.png": "/Math-Answer/static/media/37.579c36300a879e4db4df.png",
     "static/media/2_53.png": "/Math-Answer/static/media/2_53.68bf508916a7c0185aa4.png",
@@ -145,10 +145,10 @@
     "static/media/daegun.png": "/Math-Answer/static/media/daegun.c100986f6c2c4bcf71cf.png",
     "index.html": "/Math-Answer/index.html",
     "main.286a63c5.css.map": "/Math-Answer/static/css/main.286a63c5.css.map",
-    "main.37295d01.js.map": "/Math-Answer/static/js/main.37295d01.js.map"
+    "main.4880b7d9.js.map": "/Math-Answer/static/js/main.4880b7d9.js.map"
   },
   "entrypoints": [
     "static/css/main.286a63c5.css",
-    "static/js/main.37295d01.js"
+    "static/js/main.4880b7d9.js"
   ]
 }
