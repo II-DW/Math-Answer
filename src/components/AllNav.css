@@ -1,0 +1,36 @@
+.Box11{
+    height: 5rem;
+    width: 16.95vw;
+    background-color: white;
+    border-radius: 5rem;
+    margin: 1vw;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Box22{
+    height: 5rem;
+    width: 16.95vw;
+    background-color: aquamarine;
+    border-radius: 5rem;
+    margin: 1vw;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divBox2{
+    display: flex;
+    flex-flow: row ;
+}

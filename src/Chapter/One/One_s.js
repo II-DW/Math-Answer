@@ -7,7 +7,7 @@ import './One.css';
 function Home() {
   return (
     <div className="MainPage2">
-      <div className='Box2'>2.2 도함수의 활용 <br/> 해설 </div>
+      <div className='Box2'>2.1 도함수의 활용 <br/> 해설 </div>
       <div className="BigSize">
             <Link to="/solve/1/1" className='linkstyle'><div className='Box'>1번</div></Link>
             <Link to="/solve/1/6" className='linkstyle'><div className='Box'>6번</div></Link>

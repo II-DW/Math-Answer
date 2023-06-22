@@ -1,0 +1,90 @@
+
+.MainPage2 {
+    background-color: rgb(246, 255, 199);
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: baseline;
+    min-height: 100vh;
+}   
+
+.BigSize {
+    display: inline-block;
+    vertical-align: top;
+    flex-flow: column;
+    padding-left: 1rem;
+}
+
+
+.Box{
+    height: 5rem;
+    width: 16vw;
+    background-color: white;
+    border-radius: 5rem;
+    margin: 1vw;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkstyle{
+    text-decoration: none;
+    color: black;
+}
+
+.Box2{
+    height: 5rem;
+    width: 14rem;
+    background-color: aqua;
+    border-radius: 5rem;
+    margin: 1rem;
+    overflow: hidden;
+    text-align: center;
+    border: solid 0.2rem;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 33rem;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgb(246, 255, 199);
+}
+.img {
+    width: 45rem;
+    height: auto;
+}
+
+.Next {
+    margin-left: 1rem;
+    width: 1rem;
+}
+
+.Next2{
+    text-decoration: none;
+    color: blue;
+}
+
+.Next3{
+    text-decoration: none;
+    color: red;
+}
+
+.Answer {
+    font-size: 20rem;
+}
