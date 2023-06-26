@@ -54,7 +54,7 @@ function Home() {
             <Link to="/question/1/34" className='linkstyle'><div className='Box'>34번</div></Link>
             <Link to="/question/1/39" className='linkstyle'><div className='Box'>39번</div></Link>
             <Link to="/question/1/44" className='linkstyle'><div className='Box'>44번</div></Link>
-\      </div>
+      </div>
 
       <div className="BigSize">
             <Link to="/question/1/5" className='linkstyle'><div className='Box'>5번</div></Link>
