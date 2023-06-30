@@ -38,7 +38,7 @@ function Home() {
             <Link to="/solve/1/8" className='linkstyle'><div className='Box'>8번</div></Link>
             <Link to="/solve/1/13" className='linkstyle'><div className='Box'>13번</div></Link>            
             <Link to="/solve/1/18" className='linkstyle'><div className='Box'>18번</div></Link>
-            <Link to="/solve/1/28" className='linkstyle'><div className='Box'>23번</div></Link>
+            <Link to="/solve/1/23" className='linkstyle'><div className='Box'>23번</div></Link>
             <Link to="/solve/1/28" className='linkstyle'><div className='Box'>28번</div></Link>
             <Link to="/solve/1/33" className='linkstyle'><div className='Box'>33번</div></Link>
             <Link to="/solve/1/38" className='linkstyle'><div className='Box'>38번</div></Link>

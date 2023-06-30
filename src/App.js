@@ -306,6 +306,19 @@ import Q3q38 from './Chapter/Three/code/q/Q3_38.js';
 import Q3q39 from './Chapter/Three/code/q/Q3_39.js';
 import Q3q40 from './Chapter/Three/code/q/Q3_40.js';
 
+import ReactGA from "react-ga";
+import { createBrowserHistory } from "history";
+
+const gaTrackingId = process.env.REACT_APP_GA_TRACKING_ID;
+ReactGA.initialize(gaTrackingId);
+
+const history = createBrowserHistory();
+history.listen((response) => {
+  console.log(response.location.pathname);
+  ReactGA.set({ page: response.location.pathname });
+  ReactGA.pageview(response.location.pathname);
+});
+
 function App() {
   return (
     <BrowserRouter basename="/Math-Answer">
