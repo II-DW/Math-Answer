@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Math-Answer/static/css/main.6e4a97f8.css",
-    "main.js": "/Math-Answer/static/js/main.dfd27c28.js",
+    "main.css": "/Math-Answer/static/css/main.0ade20b0.css",
+    "main.js": "/Math-Answer/static/js/main.28f9d8c6.js",
     "static/media/47.png": "/Math-Answer/static/media/47.a5ee177edf17061f59ab.png",
     "static/media/37.png": "/Math-Answer/static/media/37.579c36300a879e4db4df.png",
     "static/media/2_53.png": "/Math-Answer/static/media/2_53.68bf508916a7c0185aa4.png",
@@ -13,11 +13,13 @@
     "static/media/3_40.png": "/Math-Answer/static/media/3_40.b79d42c86e609a656706.png",
     "static/media/3_39.png": "/Math-Answer/static/media/3_39.12a6fe4f556ba7f3c606.png",
     "static/media/8.png": "/Math-Answer/static/media/8.91a6e4db78d47f181128.png",
+    "static/media/manga.png": "/Math-Answer/static/media/manga.bad659638b5b2876909e.png",
     "static/media/3_35.png": "/Math-Answer/static/media/3_35.38cf6280c9c0c0f27e3d.png",
     "static/media/2_44.png": "/Math-Answer/static/media/2_44.88781486006d7b5ba804.png",
     "static/media/3_37.png": "/Math-Answer/static/media/3_37.4aee6c09385fcc978615.png",
     "static/media/26.png": "/Math-Answer/static/media/26.1bd6977b5b62f4cb20ec.png",
     "static/media/2_46.png": "/Math-Answer/static/media/2_46.4db74a19b8911d64e692.png",
+    "static/media/logo_negative.png": "/Math-Answer/static/media/logo_negative.e950a1cbe8f72233ad0e.png",
     "static/media/3_9.png": "/Math-Answer/static/media/3_9.c68efa1c493a94df5977.png",
     "static/media/2_49.png": "/Math-Answer/static/media/2_49.10deb2d75cb5732fa1f2.png",
     "static/media/17.png": "/Math-Answer/static/media/17.a3b8ee9a730dcdacfcf5.png",
@@ -144,11 +146,11 @@
     "static/media/2_21.png": "/Math-Answer/static/media/2_21.69ebf93f870d5b6f850b.png",
     "static/media/daegun.png": "/Math-Answer/static/media/daegun.c100986f6c2c4bcf71cf.png",
     "index.html": "/Math-Answer/index.html",
-    "main.6e4a97f8.css.map": "/Math-Answer/static/css/main.6e4a97f8.css.map",
-    "main.dfd27c28.js.map": "/Math-Answer/static/js/main.dfd27c28.js.map"
+    "main.0ade20b0.css.map": "/Math-Answer/static/css/main.0ade20b0.css.map",
+    "main.28f9d8c6.js.map": "/Math-Answer/static/js/main.28f9d8c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e4a97f8.css",
-    "static/js/main.dfd27c28.js"
+    "static/css/main.0ade20b0.css",
+    "static/js/main.28f9d8c6.js"
   ]
 }
