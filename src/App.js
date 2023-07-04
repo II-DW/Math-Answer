@@ -1,4 +1,4 @@
-import {  Route, BrowserRouter, Routes  } from "react-router-dom";
+import {  Route, Routes  } from "react-router-dom";
 
 import Home from './Home.js';
 
@@ -17,6 +17,7 @@ import NotFound from './components/404.js';
 import From from './components/from.js'
 import Ad from './components/Ad.js';
 import AllNav from './components/AllNav.js';
+import RouterChangerTracker from './components/RouteChangeTracker.js';
 
 // solve
 import S1s1 from './Chapter/One/code/solve/S1_1.js';
@@ -306,22 +307,12 @@ import Q3q38 from './Chapter/Three/code/q/Q3_38.js';
 import Q3q39 from './Chapter/Three/code/q/Q3_39.js';
 import Q3q40 from './Chapter/Three/code/q/Q3_40.js';
 
-import ReactGA from "react-ga";
-import { createBrowserHistory } from "history";
 
-const gaTrackingId = process.env.REACT_APP_GA_TRACKING_ID;
-ReactGA.initialize(gaTrackingId);
-
-const history = createBrowserHistory();
-history.listen((response) => {
-  console.log(response.location.pathname);
-  ReactGA.set({ page: response.location.pathname });
-  ReactGA.pageview(response.location.pathname);
-});
 
 function App() {
+  RouterChangerTracker();
   return (
-    <BrowserRouter basename="/Math-Answer">
+    <div>
       <Nav /> 
       <hr />
       <Routes>
@@ -634,8 +625,7 @@ function App() {
         </Route>  
         <Route path="/*" element={<NotFound />} /> 
       </Routes>
-    </BrowserRouter>
-    
+    </div>
   );
 }
 

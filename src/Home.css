@@ -49,3 +49,24 @@
   text-decoration: none;
   color: black;
 }
+
+.MainText2{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.MainText3{
+  font-size: 1rem;
+  color: red;
+  font-weight: bold;
+}
+
+.Logo1{
+  width: auto;
+  height: 1rem;
+  padding: none;
+}
+
+.Logo5 {
+  width: auto;
+  height: 2rem;
+}
